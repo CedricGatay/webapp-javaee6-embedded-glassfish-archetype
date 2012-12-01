@@ -76,7 +76,7 @@
                 </executions>
             </plugin>
             <!-- Run mvn clean package embedded-glassfish:run -->
-            <!-- and go to http://localhost:8080/applicationPetstore/ -->
+            <!-- and go to http://localhost:8080/ -->
             <plugin>
                 <groupId>org.glassfish</groupId>
                 <artifactId>maven-embedded-glassfish-plugin</artifactId>
