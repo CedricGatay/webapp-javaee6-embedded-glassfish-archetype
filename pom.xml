@@ -4,7 +4,7 @@
 
   <groupId>fr.gatay.cedric.tooling.archetypes</groupId>
   <artifactId>webapp-javaee6-embedded-glassfish-archetype</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>maven-archetype</packaging>
 
   <name>webapp-javaee6-embedded-glassfish-archetype</name>
