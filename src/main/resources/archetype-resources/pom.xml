@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.glassfish>3.1.2.2</version.glassfish>
-        <version.maven.embedded.glassfish.plugin>3.1.1</version.maven.embedded.glassfish.plugin>
+        <version.maven.embedded.glassfish.plugin>${version.glassfish}</version.maven.embedded.glassfish.plugin>
     </properties>
 
     <profiles>
@@ -53,7 +53,7 @@
             <!-- Run mvn clean package embedded-glassfish:run -->
             <!-- and go to http://localhost:8080/ -->
             <plugin>
-                <groupId>org.glassfish</groupId>
+                <groupId>org.glassfish.embedded</groupId>
                 <artifactId>maven-embedded-glassfish-plugin</artifactId>
                 <version>${version.maven.embedded.glassfish.plugin}</version>
                 <configuration>
